@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF5EE;
+    color: gray;
+}
+
+header {
+    background-color: #727272;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header h1 {
+    display: inline-block;
+    margin-right: -4px;
+    color: white;
+    width: 15%;
+    /*border: 1px solid black;*/
+    vertical-align: middle;
+    font-weight: 100;
+}
+
+header h1 span {
+    font-weight: 100;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+}
+
+header nav {
+    display: inline-block;
+    margin-right: -4px;
+    width: 80%;
+    /*border: 1px solid black;*/
+    text-align: right;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 27px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    background: gray;
+}
+
+main {
+    width: 70%;
+    margin: 20px auto 0 auto;
+}
+
+main section {
+    display: inline-block;
+    margin-right: -4px;
+    width: 70%;
+    vertical-align: top;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+main aside {
+    display: inline-block;
+    margin-right: -4px;
+    width: 27%;
+    margin-left: 3%;
+    vertical-align: top;
+
+}
+
+main section img {
+    width: 100%;
+}
+
+main section h2 {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main section p {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.aside-box {
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.aside-box h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.busca  {
+    height: 35px;
+    width: 70%;
+    margin-left: 25px;
+    border: 1px solid grey;
+}
+
+.aside-box button {
+    height: 35px;
+    width: 15%;
+    background-color: grey;
+    color: white;
+}
+
+.aside-box ul {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.aside-box li{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.clique{
+    height: 35px;
+    width: 70%;
+    margin-left: 50px;
+    border: 1px solid grey;
+}
+.paragrafo{
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+
